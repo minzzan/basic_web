@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>basic_web</display-name>
+  <!-- 3.0 이하부터 이 설정을 해줘야 함... 이상부터는 java 파일의 @WebServlet에서 처리해주면 됨(annotation)
+  <servlet>
+      <servlet-name>aa</servlet-name>
+      <servlet-class>com.ssafy.basic.CounterServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+      <servlet-name>aa</servlet-name>
+      <url-pattern>/counter</url-pattern>
+  </servlet-mapping>
+   -->
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>
+<!-- 사이트 접속할때 가장 처음으로 뜰 파일 -->
